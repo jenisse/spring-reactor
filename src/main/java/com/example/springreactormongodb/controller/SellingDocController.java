@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.example.springreactormongo.controller;
+package com.example.springreactormongodb.controller;
 
-import com.example.springreactormongo.model.SellingDoc;
-import com.example.springreactormongo.service.SellingDocService;
+import com.example.springreactormongodb.model.SellingDoc;
+import com.example.springreactormongodb.service.SellingDocService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

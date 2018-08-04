@@ -3,9 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.example.springreactormongo.model;
-
+package com.example.springreactormongodb.model;
+import java.math.BigDecimal;
 import java.util.Date;
+import java.util.List;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -15,13 +16,12 @@ import org.springframework.data.mongodb.core.mapping.Document;
  * @author TOSHIBA
  */
 @Data
-@Document(collection="client")
-public class Client {
+@Document(collection="document")
+public class SellingDoc {
     @Id
     private long id;
-    private String name;
-    private String lastName;
-    private String address;
-    private Date birthday;
-    
+    private Client client;
+    private Date date;
+    private List<DetailDocument> details;
+    private BigDecimal total;
 }

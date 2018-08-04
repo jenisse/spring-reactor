@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.example.springreactormongo.repository;
+package com.example.springreactormongodb.repository;
 
-import com.example.springreactormongo.model.SellingDoc;
+import com.example.springreactormongodb.model.SellingDoc;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 import org.springframework.stereotype.Repository;
 

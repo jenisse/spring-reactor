@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.example.springreactormongo.model;
+package com.example.springreactormongodb.model;
 
 import java.math.BigDecimal;
 import lombok.Data;
