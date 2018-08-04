@@ -1,0 +1,22 @@
+{
+  "id": 1,
+  "client": {
+    "id": 1,
+    "name": "PepitoB",
+    "lastName": "Arias",
+    "address": "av peru"
+  },
+  "details": [
+    {
+      "id": 1,
+      "product": {
+        "id": 1,
+        "name": "Ariel",
+        "price": 12.3
+      },
+      "count": 1,
+      "subtotal": 12.3
+    }
+  ],
+  "total": 12.3
+}
